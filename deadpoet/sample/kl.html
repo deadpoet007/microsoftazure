@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>
+        <img alt="" src="http://shapecrunch.com/wp-content/uploads/2015/01/Screenshot-2015-01-13-12.54.54.png   " 
+            style="height: 340px; width: 800px" id="image" /></p>
+    <p>
+        <input id="Button1" type="button" style="background-color:red;color:white" value="RED" onclick="ShowRedo()" />&nbsp;&nbsp; 
+        <input id="Button2" type="botton" style="background-color:black;color:white" value="BLACK" onclick="ShowUndo()" />&nbsp;&nbsp; 
+        <input id="Button3" type="button" style="background-color:white;color:black" value="WHITE" onclick="jim()" />&nbsp;&nbsp;   
+    </p>
+
+<script language="javascript">
+    function ShowRedo() 
+{
+        document.getElementById("image").src = "http://shapecrunch.com/wp-content/uploads/2015/01/Screenshot-2015-01-13-12.54.54.png";  
+    }
+
+    function ShowUndo() 
+{
+        document.getElementById("image").src = "http://shapecrunch.com/wp-content/uploads/2015/01/Screenshot-2015-01-13-12.54.29.png"; 
+    }
+    function jim() 
+{
+        document.getElementById("image").src = "http://shapecrunch.com/wp-content/uploads/2015/01/Screenshot-2015-01-13-12.54.42.png"; 
+    }
+</script>
+
+
+</body>
+</html>
