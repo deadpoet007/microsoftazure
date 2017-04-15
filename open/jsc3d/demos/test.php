@@ -49,7 +49,7 @@ $(document).ready(function()
 
 
   <div data-role="main" class="ui-content">
-    <form method="post" action="/open/extrude.php">
+    <form method="post" action="http://microsoftazureportal.azurewebsites.net/open/extrude.php">
       <label for="points">Extrusion Factor(0 to 1)</label>
       <input type="range" name="scale" min="0" max="1" step="0.1" value="0.1" />
       <input type="submit" value="extrude" data-inline="true" value="Submit">
@@ -58,7 +58,7 @@ $(document).ready(function()
 
 
  	<!--<img src="smile22.jpeg" alt="Smiley face" height="200" width="240">-->
- 	<a href="http://localhost/open/extrude.php"  style="font-size:16px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; text-decoration: none; line-height:40px; width:100%; display:inline-block">
+ 	<a href="http://microsoftazureportal.azurewebsites.net/open/extrude.php"  style="font-size:16px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; text-decoration: none; line-height:40px; width:100%; display:inline-block">
        
     </td><td>
 		<canvas id="cv" style="border: 1px solid;" width="490" height="368" ></canvas>
